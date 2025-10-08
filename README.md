@@ -31,10 +31,128 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
+```
+cover.html
+<html>
+    <head>
+        <title>MyBook
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="page">
+            
+            <div class="insights">
+                SEC Insights
+            </div>
+            <div class="hr">
+                <hr>
+            </div>
+            <div class="title">
+                 THE SINGULARITY AGENDA 
+            </div>
+            <div class="subtitle">
+                 Man Vs Machine in a Futuristic Dystopia.<br>
+                 Top Seller of 2025
+            </div>
+            <div class="edit">
+             FIRST EDITION
+             </div>
+             <br><hr>
+              <div class="name">
+                KAPILASRI G 
+                </div>
+                <div class="bottom">
+                    SEC
+                </div>
+            <div class="pic">
+            </div> 
+        </div>
+    </body>
+</html>
+style.css
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+}
+.page{
+    width: 500px;
+    height: 700px;
+    background-image: url(back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 20px solid yellow;
+    padding:20px;
+    box-sizing:border-box;
+    background-clip: padding-box;
+    position: relative;
+       
+}
 
+.insights{
+   color: #ffff;
+    font-size: 18px;
+   font-weight: bold;
+   margin-bottom: 10px;
+}
+.hr{
+    color: white;
+    width: 120px;
+    right: 200%;
+    
+
+}
+.title{
+    color: #ffff;
+    font-size: 45px;
+     margin: 13px 0 15px 0;
+    
+   font-weight: bold;
+    text-align: center;
+    
+}
+.subtitle{
+    color: #ffff;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.edit{
+    color: #ffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 200px;
+}
+.name{
+    color: #ffff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+   
+}
+.bottom{
+    color: #ffff;
+    position: absolute;
+    bottom: 100px;
+    right: 60px;
+    font-weight: bold;
+}
+.pic{
+    position: absolute;
+    bottom:150px;
+    left: 75%;
+    width: 100px;
+    height:100px;
+    background: url(myimage.jpg) no-repeat;
+    background-size: 80px;
+
+}
+```
 
 ## OUTPUT:
-
+![alt text](<Screenshot 2025-10-08 102029.png>)
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
